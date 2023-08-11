@@ -5,10 +5,11 @@ import TableBody from "@mui/material/TableBody";
 import TableCell from "@mui/material/TableCell";
 import TableHead from "@mui/material/TableHead";
 import TableRow from "@mui/material/TableRow";
+import "../index.css";
 
 export default function Transactions() {
   return (
-    <div id="scroll">
+    <div id="transaction-table">
       <>
         {/* <Title>Transactions</Title> */}
         <Table size="small">

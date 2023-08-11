@@ -1,14 +1,18 @@
 import { useState } from "react";
 import "./App.css";
-// import DataGrid from "./components/DataGrid";
+import "./index.css";
 import Transactions from "./components/Transactions";
 import PersistentDrawer from "./components/PersistentDrawer";
+import BasicButton from "./components/BasicButton";
 
 function App() {
   return (
     <>
-      <PersistentDrawer />
-      <Transactions />
+      <div className="page-container">
+        <PersistentDrawer />
+        <Transactions />
+        <BasicButton />
+      </div>
     </>
   );
 }
